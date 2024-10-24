@@ -5,7 +5,7 @@ import Promo from "../shared/promosvg/page";
 
 const Banner = () => {
   return (
-    <div className="p-4 mt-20 flex flex-col md:flex-row">
+    <div className="pl-4 pr-4 pt-24  flex flex-col md:flex-row">
       {/* First side */}
       <div className="w-[60%] mb-4 md:mb-0">
         <Liveiamgebanner />
@@ -27,7 +27,7 @@ const Banner = () => {
 
         {/* 3rd */}
         <div className="flex gap-3 mt-5">
-          <span className="flex gap-2 items-center p-2 rounded-xl">
+          <span className="flex gap-2 items-center p-2 rounded-xl bg-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -45,7 +45,7 @@ const Banner = () => {
 
             <span className="text-xs">৫২ টি লাইভ ক্লাস</span>
           </span>
-          <span className="flex gap-2 items-center p-2 rounded-xl">
+          <span className="flex gap-2 items-center p-2 rounded-xl bg-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -62,7 +62,7 @@ const Banner = () => {
             </svg>
             <span className="text-xs">১২ টি প্রজেক্টস</span>
           </span>
-          <span className="flex gap-2 items-center p-2 rounded-xl">
+          <span className="flex gap-2 items-center p-2 rounded-xl bg-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
