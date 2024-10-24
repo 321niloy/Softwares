@@ -1,0 +1,7 @@
+.bgimage {
+  background-image: url(../../assets/picture/backgroundimage.webp);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
